@@ -48,7 +48,7 @@ The project was created to improve Java programming, JavaFX usage, and object-or
 
 ---
 ## Gameplay
-![Flappy Bird Gameplay](ActiveGameScreen.png)
+![Flappy Bird Gameplay](ActiveGameplayScreen.png)
 ---
 
 ## 👥 Project Members

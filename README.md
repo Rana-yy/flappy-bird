@@ -47,6 +47,9 @@ The project was created to improve Java programming, JavaFX usage, and object-or
 - Collision management utilizing AABB algorithms
 
 ---
+## Gameplay
+![Flappy Bird Gameplay](ActiveGameScreen.png)
+---
 
 ## 👥 Project Members
 - Jena Mohammed

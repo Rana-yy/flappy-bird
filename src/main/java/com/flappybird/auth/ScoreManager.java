@@ -1,5 +1,7 @@
-package com.flappybird.game;
+package com.flappybird.auth;
 
+import com.flappybird.game.Bird;
+import com.flappybird.game.Pipe;
 import javafx.scene.canvas.GraphicsContext; // To draw the score on the screen
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;

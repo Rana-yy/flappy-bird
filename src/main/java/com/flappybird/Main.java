@@ -1,6 +1,6 @@
 package com.flappybird;
 
-import com.flappybird.game.StartGameScene;
+import com.flappybird.auth.StartGameScene;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;

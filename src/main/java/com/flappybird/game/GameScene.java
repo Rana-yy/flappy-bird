@@ -1,5 +1,6 @@
 package com.flappybird.game;
 
+import com.flappybird.auth.ScoreManager;
 import javafx.animation.AnimationTimer;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;

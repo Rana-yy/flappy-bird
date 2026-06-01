@@ -1,6 +1,5 @@
-package com.flappybird.game;
+package com.flappybird.auth;
 
-import com.flappybird.auth.User;
 import javafx.geometry.Pos;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.StackPane;

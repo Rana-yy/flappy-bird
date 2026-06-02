@@ -43,11 +43,13 @@ public class Bird {
 
     // Applies an upward impulse force when the player presses Space
     public void jump() {
+
         velocityY = JUMP_FORCE;
     }
 
     // Draws the bird's PNG asset onto the active game canvas
     public void draw(GraphicsContext gc) {
+
         gc.drawImage(img, x, y, WIDTH, HEIGHT);
    }
 

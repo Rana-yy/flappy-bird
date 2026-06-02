@@ -1,7 +1,5 @@
-package com.flappybird.auth;
+package com.flappybird.game;
 
-import com.flappybird.game.Bird;
-import com.flappybird.game.Pipe;
 import javafx.scene.canvas.GraphicsContext; // To draw the score on the screen
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
@@ -33,7 +31,7 @@ public class ScoreManager {
     public void checkAndScore(Bird bird, Pipe pipe) {
 
         if (!pipe.passed && bird.x > pipe.x + Pipe.WIDTH) {
-            score      += 0.5;
+            score += 0.5;
             pipe.passed = true;
         }
     }

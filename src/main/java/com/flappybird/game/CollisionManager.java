@@ -1,6 +1,5 @@
 package com.flappybird.game;
 
-
 import java.util.List; // To work with the pipe list.
 
 // Manages all collision detection logic for the bird, pipes, and screen boundaries

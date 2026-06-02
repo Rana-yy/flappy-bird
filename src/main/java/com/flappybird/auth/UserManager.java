@@ -76,7 +76,7 @@ public class UserManager {
         List<User> users = loadUsers();
 
         for (User user : users) {
-            if (user.getUsername().equals(username) && user.getPassword().equals(password)) {
+            if (user.getUsername().equals(username) && PasswordHasher.verify(password, user.getPassword())) {
                 return user;
             }
         }
@@ -86,7 +86,8 @@ public class UserManager {
 
      // Writes a single user record to RandomAccessFile.
     private static void writeUserRecord(RandomAccessFile raf, User user) throws IOException {
-        String record = user.getUsername() + "," + user.getPassword() + "," + user.getScore();
+        String passwordToStore = PasswordHasher.isHashed(user.getPassword()) ? user.getPassword() : PasswordHasher.hash(user.getPassword());
+        String record = user.getUsername() + "," + passwordToStore + "," + user.getScore();
         raf.writeBytes(record + "\n");
     }
 

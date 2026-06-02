@@ -47,8 +47,13 @@ The project was created to improve Java programming, JavaFX usage, and object-or
 - Collision management utilizing AABB algorithms
 
 ---
+## Gameplay
+
+<img width="1920" height="1042" alt="Active Gameplay Screen" src="https://github.com/user-attachments/assets/2e260d81-4669-44c4-a4ee-647e871fba13" />
+
+---
 
 ## 👥 Project Members
-- Jena Mohammed
+- Jena Mohammed Akrem
 - Rana Yilmazyildirim
  

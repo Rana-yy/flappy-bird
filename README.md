@@ -54,6 +54,6 @@ The project was created to improve Java programming, JavaFX usage, and object-or
 ---
 
 ## 👥 Project Members
-- Jena Mohammed
+- Jena Mohammed Akrem
 - Rana Yilmazyildirim
  
